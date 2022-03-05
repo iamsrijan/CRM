@@ -1,0 +1,28 @@
+<p>
+  Employee Details
+</p>
+<a routerLink="/employeecreate" class="nav-link btn btn-primary">
+  Add New Employee
+</a>
+<table class="table table-bordered table-striped mb-0">
+  <thead>
+  <tr>
+      <td>Name</td>
+      <td>Title</td>
+      <td>Email</td>
+      <td>Phone Number</td>
+      <td colspan="2">Actions</td>
+  </tr>
+  </thead>
+
+  <tbody>
+      <tr *ngFor="let employee of employees">
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.title }}</td>
+          <td>{{ employee.email }}</td>
+          <td>{{ employee.phone_number }}</td>
+          <td><a [routerLink]="['editemployee', employee._id]" class="btn btn-primary">Edit</a></td>
+          <td><a (click)="deleteEmployee(employee._id)" class="btn btn-danger">Delete</a></td>
+      </tr>
+  </tbody>
+</table>

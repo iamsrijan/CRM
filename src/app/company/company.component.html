@@ -1,0 +1,45 @@
+
+<p class="name">
+    Company Name: INSEER
+</p>
+<p>
+  Location: Iowa City
+</p>
+<p>
+  total employees : {{ employees.length }}
+</p>
+<p>
+  total customers : {{ customers.length }}
+</p>
+<div class="row">
+  <div class="table-wrapper-scroll-y my-custom-scrollbar col-md-3">
+    <table class="table table-bordered table-striped mb-0">
+    <thead>
+    <tr>
+      <th scope="col">Customers</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr  *ngFor="let customer of customers">
+      <td>{{ customer.name }}</td>
+    </tr>
+
+    </tbody>
+    </table>
+  </div>
+  <div class="table-wrapper-scroll-y my-custom-scrollbar col-md-3">
+    <table class="table table-bordered table-striped mb-0">
+    <thead>
+    <tr>
+      <th scope="col">Employees</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr  *ngFor="let employee of employees">
+      <td>{{ employee.name }}</td>
+    </tr>
+
+    </tbody>
+    </table>
+  </div>
+</div>
