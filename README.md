@@ -20,8 +20,6 @@ Clone or download this repository
 4. `npm install`
 
 ### To Run
-As you already install node_modules in both backend server and angular now have to run all three mongoDB, node/express server and angular.
-
 start mongodb in your system
 
 to run node server
@@ -32,10 +30,6 @@ to run angular frontend
 1. `cd MEAN-Stack`
 2. `ng serve -o`
 
-### To addcustomer customer
-http://localhost:4200/customercreate
 
-### To editcustomer and deletecustomer customer
-http://localhost:4200/customer
 
 
