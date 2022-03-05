@@ -1,6 +1,5 @@
-# MEAN-Stack-CRUD
-> An Angular + Node/Express + MongoDB + Bootstrap Simple example 
-This code will addcustomer, upadate and deletecustomer data to mongodb using express rest APIS and frontend through Angular 7. Angular Code is in main directory and backend code is in backend directory of main directory
+# Customer Relationship Management
+> A CRM application that performs CRUD operations on a company's employees and customers.
 
 ### Prerequisites
 Below listed things you need to have in your system to run this code
@@ -39,5 +38,4 @@ http://localhost:4200/customercreate
 ### To editcustomer and deletecustomer customer
 http://localhost:4200/customer
 
-#### And lastly taylor swift's mean song gif, which BTW has nothing to do with this code but why not just randomly put it there for no good reason :blush:
-![tSwift](https://media.giphy.com/media/VH1f6PQ4J6HYI/giphy.gif)
+
